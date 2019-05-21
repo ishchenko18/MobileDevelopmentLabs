@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.OrderResultFragment">
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/titleResult"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/customerData"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/customerData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/phoneView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/phoneNumber"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/phoneData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="90dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/pizzaType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="130dp"
+        android:text="@string/pizzaTypeView"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/pizzaTypeData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="130dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/spicyData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="170dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/colaData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="210dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="280dp"
+        android:text="@string/submitOrder" />
+
+    <TextView
+        android:id="@+id/spicyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="170dp"
+        android:text="Гостра:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/colaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="210dp"
+        android:text="Кола:"
+        android:textSize="18sp" />
+
+</FrameLayout>

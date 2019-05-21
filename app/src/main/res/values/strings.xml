@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Замовлення Піци</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Оформлення замовлення</string>
+    <string name="titleResult">Ваше замовлення</string>
+    <string name="pizzaTypeView">Тип піци:</string>
+    <string name="personalDataView">Ім"я та Прізвище:</string>
+    <string name="customerData">Замовник:</string>
+    <string name="phoneNumber">Телефон:</string>
+    <string name="orderButton">Замовити</string>
+    <string name="submitOrder">Підтвердити</string>
+    <string name="orderSearchTitle">Пошук замовлення</string>
+</resources>

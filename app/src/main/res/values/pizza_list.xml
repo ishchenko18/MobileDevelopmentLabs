@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pizza_list">
+        <item>Карбонара</item>
+        <item>4 Сири</item>
+        <item>Баварія</item>
+        <item>Квадро Формаджі</item>
+        <item>Пепероні</item>
+        <item>Гавайська</item>
+        <item>Салямі</item>
+    </string-array>
+</resources>
